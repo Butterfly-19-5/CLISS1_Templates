@@ -13,13 +13,14 @@
 
             //Find the largest number
             let largest = Math.max(num1, num2);
-            console.log("Largest number:")
+            console.log("Largest number:",largest)
+            
+            let min=Math.min(num1, num2);
+            let max=Math.max(num1, num2);
 
-            //update
+            let randomNumber=Math.floor(Math.random() * (max-min+1)) +min;
 
-
-
-
+            console.log("Random number:", randomNumber);
 
         </script>
     </body>
